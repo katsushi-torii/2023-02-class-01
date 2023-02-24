@@ -367,6 +367,19 @@ header {
 
 @media (min-width:600px) {
 
+    header {
+        height: 60vh;
+    }
+
+    header > article {
+        padding-top: 1%;
+        row-gap: 15vh;
+    }
+
+    header section > a {
+        width: 20%;
+    }
+
     section {
         align-items: center;
     }
