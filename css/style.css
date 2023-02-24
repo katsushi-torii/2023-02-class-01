@@ -365,12 +365,17 @@ header {
 
 }
 
-@media (min-width:800px) {
+@media (min-width:600px) {
+
+    .contact {
+        width: 90%;
+    }
 
     .about > figure,
     .contact > section {
         flex-direction: row;
-        column-gap: 3vh;
+        column-gap: 6vh;
+        width: 80%;
     }
 
     .about img {
@@ -388,6 +393,20 @@ header {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-evenly;
+    }
+
+    [type=submit] {
+        width: 70%;
+        border-radius: 30px;
+        padding: 2vh;
+        transition: .6s;
+        border: 2px solid var(--mainColor);
+    }
+
+    [type=submit]:hover {
+        color: var(--mainColor);
+        background-color: white;
+        border: 2px solid var(--mainColor);
     }
 }
 
