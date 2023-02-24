@@ -367,6 +367,14 @@ header {
 
 @media (min-width:600px) {
 
+    section {
+        align-items: center;
+    }
+
+    .about article {
+        width: 60%;
+    }
+
     .testimonials {
         font-size: 40px;
     }
@@ -383,7 +391,12 @@ header {
         width: 40%;
     }
 
-    .about > figure,
+    .about > figure {
+        flex-direction: row;
+        column-gap: 3vh;
+    }
+
+
     .contact > section {
         flex-direction: row;
         column-gap: 6vh;
@@ -391,7 +404,7 @@ header {
     }
 
     .about img {
-        width: 50%;
+        width: 40%;
     }
 
     .gallery {
@@ -403,10 +416,14 @@ header {
         height: 30vh;
     }
 
+    .services {
+        row-gap: 5vh;
+    }
+
     .services aside {
         width: 40%;
     }
-    
+
     .services > section {
         flex-direction: row;
         flex-wrap: wrap;
