@@ -368,16 +368,29 @@ header {
 @media (min-width:600px) {
 
     header {
-        height: 60vh;
+        min-height: 70vh;
     }
 
     header > article {
+        padding: 5%;
         padding-top: 1%;
         row-gap: 15vh;
     }
 
-    header section > a {
-        width: 20%;
+    header section > [href="#"] {
+        width: 30%;
+        font-weight: 600;
+        transition: .6s;
+        border: 3px solid var(--mainColor);
+    }
+
+    header section > [href="#"]:hover {
+        background-color: white;
+        color: var(--mainColor);
+    }
+
+    header h2 {
+        font-weight: 400;
     }
 
     section {
@@ -389,7 +402,7 @@ header {
     }
 
     .testimonials {
-        font-size: 40px;
+        font-size: 40px;git
     }
 
     .contact {
