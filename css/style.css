@@ -402,7 +402,7 @@ header {
     }
 
     .testimonials {
-        font-size: 40px;git
+        font-size: 40px;
     }
 
     .contact {
@@ -507,4 +507,14 @@ header {
     header > article {
         padding: 2%;
     }
+
+    form aside {
+        width: 96%;
+        justify-content: space-between;
+    }
+
+    aside input {
+        width: 45%;
+    }
+    
 }
