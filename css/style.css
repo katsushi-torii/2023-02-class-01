@@ -477,6 +477,18 @@ header {
         row-gap: 20vh;
     }
 
+    .about {
+        align-items: center;
+    }
+
+    .about a {
+        width: 15vw;
+    }
+
+    .about > article {
+        width: 50%;
+    }
+
     .gallery {
         padding-bottom: 20vh;
     }
@@ -536,8 +548,10 @@ header {
     .testimonials p {
         font-size: 24px;
     }
+
     .testimonials > article {
         row-gap: 10vh;
         width: 50%;
     }
 }
+
