@@ -367,8 +367,20 @@ header {
 
 @media (min-width:600px) {
 
+    .testimonials {
+        font-size: 40px;
+    }
+
     .contact {
         width: 90%;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h6 {
+        width: 40%;
     }
 
     .about > figure,
@@ -379,16 +391,22 @@ header {
     }
 
     .about img {
-        width: 40%;
+        width: 50%;
+    }
+
+    .gallery {
+        align-items: center;
     }
 
     .gallery img {
         width: 50%;
+        height: 30vh;
     }
 
     .services aside {
         width: 40%;
     }
+    
     .services > section {
         flex-direction: row;
         flex-wrap: wrap;
