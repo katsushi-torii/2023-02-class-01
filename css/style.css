@@ -473,6 +473,18 @@ header {
 
 @media (min-width:1200px) {
 
+    main {
+        row-gap: 20vh;
+    }
+
+    .gallery {
+        padding-bottom: 20vh;
+    }
+
+    .gallery > article {
+        width: 50%;
+    }
+
     .gallery img {
         width: 33%;
     }
